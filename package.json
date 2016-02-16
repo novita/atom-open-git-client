@@ -1,0 +1,27 @@
+{
+  "name": "atom-open-git-client",
+  "main": "./lib/atom-open-git-client",
+  "version": "0.0.0",
+  "description": "Gitクライアントを起動",
+  "keywords": [
+    "Git"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-open-git-client:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novita/atom-open-git-client.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "Gitクライアントを起動",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/novita/atom-open-git-client/issues"
+  },
+  "homepage": "https://github.com/novita/atom-open-git-client#readme"
+}
